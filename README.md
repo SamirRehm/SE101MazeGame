@@ -1,2 +1,6 @@
 # SE101MazeGame
-Software Engineering 101 Final Project
+Software Engineering 101 University of Waterloo Final Project
+
+  This was my final project for Software Engineering 101 at the University of Waterloo.  We were given a Tiva C Launchpad microcontroller and an Orbit Booster Pack that included an accelerometer, push buttons, switches and and LED screen among other features. We then had the freedom to create whatever we wanted to submit for evaluation. This project was completed in groups of two.
+
+  For our project, my partner and I cooperated to create a maze game.  The code ran on the microcontroller and initially projected a menu on the LED screen. Then, when the user was ready to play, a randomly generated maze would appear on the screen with a ball in the top left corner. The maze was generated using a recursive division algorithm, which would split the maze screen up into chambers and then recursively divide each chamber, and this resulted in a maze with a unique solution. The user then tilts the microcontroller, causing the ball to move in the direction the microcontroller was tilted in as a result of our implementation of the accelerometer. The user guides the ball through the maze from the top left corner of the LED screen to the bottom right corner. A "You Win" screen is then displayed with the option to play again.
